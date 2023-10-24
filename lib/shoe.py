@@ -20,7 +20,7 @@ class Shoe:
         print("Your shoe is as good as new!")
         self.condition = "New"
 
-# Run the tests
+# Tests
 if __name__ == "__main__":
     stan_smith = Shoe("Adidas", 9)
     assert stan_smith.brand == "Adidas"

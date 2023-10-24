@@ -19,7 +19,7 @@ class Book:
     def turn_page(self):
         print("Flipping the page...wow, you read fast!")
 
-# Run the tests
+# Tests
 if __name__ == "__main__":
     book = Book("And Then There Were None", 272)
     assert book.page_count == 272
